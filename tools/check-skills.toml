@@ -1,0 +1,43 @@
+# Settings for tools/check-skills.py in research-funding.
+# The checker is identical in every repository of this family; only this
+# file differs. See the checker's docstring for what each setting drives.
+
+# Markers this repository defines in README.md.
+markers = ["Required", "Recommended", "Observed", "External", "Practice", "Open item"]
+
+# What counts as naming a binding source for a **Required** statement:
+# sponsor notices and guides, funding opportunities, regulations, IU policy.
+required_source = '''NOT-[A-Z]{2}-\d{2}-\d{3}|NOFO|FOA|PAR-\d{2}-\d{3}|PA-\d{2}-\d{3}|RFA-[A-Z]{2}-\d{2}-\d{3}|Grants Policy Statement|GPS|Application Guide|SF424|PAPPG|NSF \d{2}-\d{3}|\d+ CFR|2 CFR|45 CFR|Uniform Guidance|policy|policies|regulation|law|agreement|terms|notice|sponsor|RA-\d+|ACA-\d+|IU policy|ORA|HRPP|per'''
+
+# Ids that must also appear in a skill's Sources list when cited in its text.
+cited_ids = ['KB\d{7}', 'NOT-[A-Z]{2}-\d{2}-\d{3}']
+
+# A skill whose oldest Verified date is older than this prints STALE.
+# Sponsor rules change several times a year.
+stale_after_days = 120
+
+# Shared office addresses that may appear. Add one only after checking it is
+# a role address on an official page, not a person's.
+allowed_emails = [
+  "coi@iu.edu",
+  "irb@iu.edu",
+  "limsub@iu.edu",
+  "ora@iu.edu",
+  "ord@iu.edu",
+  "rsohelp@iu.edu",
+]
+
+# Internal hostnames never appear. Public skills name the service.
+internal_hosts = '[\w.-]*bioloop[\w.-]*\.iu\.edu|[\w.-]+\.sca\.iu\.edu'
+
+[links]
+user_agent = "research-funding-skills"
+# These hosts answer scripted requests with 403 or 202.
+skip_403_hosts = ["www.nsf.gov", "new.nsf.gov", "www.grants.gov", "grants.gov", "sam.gov", "www.ropesgray.com"]
+# Single pages that refuse scripts on hosts whose other pages load.
+skip_urls = ["https://grants.nih.gov/node/1192"]
+
+[freshness]
+# Run each Monday by .github/workflows/freshness.yml.
+checks = ["kb", "links"]
+commands = []
