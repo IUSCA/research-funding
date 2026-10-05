@@ -13,14 +13,14 @@ NSF and foundations where the rules differ.
 
 Four repositories cover research at IU. Skills name a companion's skill by
 its repository and skill name, as in "`sharing-research-data` in
-research-data."
+research-data," and link the first mention to the skill on GitHub.
 
-- research-technologies covers clusters, storage, data transfer, and
+- [research-technologies](https://github.com/IUSCA/research-technologies) covers clusters, storage, data transfer, and
   allocations.
-- research-data covers finding, classifying, managing, and sharing research
+- [research-data](https://github.com/IUSCA/research-data) covers finding, classifying, managing, and sharing research
   data.
-- research-funding covers planning and preparing grant proposals.
-- research-cores covers core facilities, their instruments, and the data
+- **research-funding** (this repository) covers planning and preparing grant proposals.
+- [research-cores](https://github.com/IUSCA/research-cores) covers core facilities, their instruments, and the data
   they deliver.
 
 This repository covers the proposal as a whole. research-data covers the

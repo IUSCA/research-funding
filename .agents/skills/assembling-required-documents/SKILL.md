@@ -178,7 +178,7 @@ RPPR instead, per the same notice.
 created in the Research.gov tool, per NSF 26-202.
 
 For the content of a plan, use the research-data repository's
-`planning-data-management-and-sharing` skill. IU Research publishes
+[`planning-data-management-and-sharing`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/planning-data-management-and-sharing) skill. IU Research publishes
 element-by-element guidance for the NIH format, and the Research Data
 Commons offers free consultations.
 

@@ -67,7 +67,7 @@ rates change each July. Re-check the page for each budget year.
 **Recommended.** For any estimate, read the IU Research rates page at the
 time. Use this table only to check the result. Core facility charges come
 from a current quote, never from this repository; see
-`budgeting-core-services-in-proposals` in research-cores.
+[`budgeting-core-services-in-proposals`](https://github.com/IUSCA/research-cores/tree/main/.agents/skills/budgeting-core-services-in-proposals) in research-cores.
 
 ## F&A at IU
 
@@ -150,13 +150,13 @@ sponsor notice says otherwise.
 | Line | Care needed | Source or skill |
 | --- | --- | --- |
 | Core facility and service center charges | Use a written quote at the core's internal rate. Core charges are services, so they are in the MTDC base. Which NIH budget line IU uses for them is an open item there. | research-cores `budgeting-core-services-in-proposals` |
-| Computing and storage | Most IU research computing is free at base levels; some storage is billed. | research-technologies `planning-research-computing-work` |
-| Data management and sharing | Curation, repository fees, and storage are allowable costs on NIH and NSF awards. | research-data `planning-data-management-and-sharing` |
+| Computing and storage | Most IU research computing is free at base levels; some storage is billed. | research-technologies [`planning-research-computing-work`](https://github.com/IUSCA/research-technologies/tree/main/.agents/skills/planning-research-computing-work) |
+| Data management and sharing | Curation, repository fees, and storage are allowable costs on NIH and NSF awards. | research-data [`planning-data-management-and-sharing`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/planning-data-management-and-sharing) |
 | Subawards | Each site sends a budget, justification, and commitment form from its sponsored-programs office. | IU proposal tools page; `assembling-required-documents` |
 | Equipment | Items at or above the equipment threshold are outside MTDC. IU's threshold is in its policy; the federal ceiling is $10,000, per 2 CFR 200.1. | Ask your grant administrator |
 | Participant support (NSF) | Stipends, travel, and fees for participants, not employees. Outside MTDC. | NSF PAPPG |
 | Patient care | Research-only clinical costs. Outside MTDC. | 2 CFR 200.1 |
-| Data access fees | Biobank, EHR extract, or analyst fees. Many data holders recover analyst time. | research-data `accessing-health-and-clinical-data` |
+| Data access fees | Biobank, EHR extract, or analyst fees. Many data holders recover analyst time. | research-data [`accessing-health-and-clinical-data`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/accessing-health-and-clinical-data) |
 | Travel | Name trips and their purpose. | Sponsor guide |
 
 ## Budget justification

@@ -49,7 +49,7 @@ what reviewers will judge, and they override general advice.
 | Access commitments | You can get the data or samples | A letter from the data holder; see `assembling-required-documents` |
 | Published work by the team | The team has done similar work | Cite it; the biosketch carries it too |
 | Exploratory aggregate analyses | The signal is worth testing | Present as hypothesis-generating, not as a finding |
-| Code, pipelines, and computing access | The analysis can run at scale | research-technologies `planning-research-computing-work` |
+| Code, pipelines, and computing access | The analysis can run at scale | research-technologies [`planning-research-computing-work`](https://github.com/IUSCA/research-technologies/tree/main/.agents/skills/planning-research-computing-work) |
 
 ## Counts from data you do not own
 
@@ -73,7 +73,7 @@ Those terms follow the counts into the proposal.
 - **Recommended.** Say who ran the query and on what definitions. A count is
   only as good as its phenotype definition.
 
-For IU health data sources, see the research-data `accessing-health-and-clinical-data`
+For IU health data sources, see the research-data [`accessing-health-and-clinical-data`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/accessing-health-and-clinical-data)
 skill. Regenstrief Data Services provides feasibility counts at no cost to
 Regenstrief and Indiana CTSI member investigators, per that skill.
 

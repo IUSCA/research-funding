@@ -31,8 +31,8 @@ decides it.
 | Human subjects, IRB, single IRB reliance | Human Research Protection Program (HRPP) | irb@iu.edu | Single IRB: "as soon as possible prior to submitting" |
 | Conflict of interest | IU Research COI | coi@iu.edu | Before routing |
 | Research security, foreign engagements, export control | Research Security Office | rsohelp@iu.edu | Before routing |
-| NIH or NSF data management and sharing plan | Research Data Commons consultation | research-data `getting-help-with-research-data` | Three weeks before the routing deadline |
-| Computing and storage facilities text | UITS Research Technologies | research-technologies `getting-help-from-research-technologies` | Not stated |
+| NIH or NSF data management and sharing plan | Research Data Commons consultation | research-data [`getting-help-with-research-data`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/getting-help-with-research-data) | Three weeks before the routing deadline |
+| Computing and storage facilities text | UITS Research Technologies | research-technologies [`getting-help-from-research-technologies`](https://github.com/IUSCA/research-technologies/tree/main/.agents/skills/getting-help-from-research-technologies) | Not stated |
 | Core facility quotes and letters | The core's director | research-cores repository | **Practice:** a month before |
 | Whether a project fits a program | The sponsor's program officer | Named in the funding opportunity | Before writing |
 
