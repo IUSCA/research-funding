@@ -1,0 +1,21 @@
+{
+  "name": "iusca-research-funding",
+  "owner": {
+    "name": "Indiana University Research Technologies",
+    "url": "https://github.com/IUSCA"
+  },
+  "metadata": {
+    "description": "Skills for planning and preparing grant proposals at IU."
+  },
+  "plugins": [
+    {
+      "name": "research-funding",
+      "source": "./",
+      "description": "Skills for planning and preparing grant proposals at IU: find opportunities, write Specific Aims and the Research Strategy, budget, route, and resubmit.",
+      "version": "0.1.0",
+      "category": "research",
+      "homepage": "https://github.com/IUSCA/research-funding",
+      "license": "ECL-2.0"
+    }
+  ]
+}
