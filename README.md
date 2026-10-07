@@ -137,11 +137,8 @@ In Claude Code:
 /plugin install research-funding@iusca-research-funding
 ```
 
-Claude desktop can add the same marketplace, `IUSCA/research-funding`, from
-its plugin settings.
-
-Plugin skills are namespaced, so `planning-a-proposal` appears as `research-
-funding:planning-a-proposal`. The agent still picks a skill from its
+Plugin skills are namespaced, so `planning-a-proposal` appears as
+`research-funding:planning-a-proposal`. The agent still picks a skill from its
 description, so you rarely type the name.
 
 To update, run `/plugin marketplace update iusca-research-funding`.
@@ -161,7 +158,7 @@ npx skills add <this repository> --list
 npx skills add <this repository> --skill planning-a-proposal --copy
 ```
 
-Claude Code and Claude desktop users can install the
+Claude Code users can install the
 [plugin](#as-a-claude-plugin). For one session only, run
 `claude --add-dir ~/repos/research-funding`.
 
