@@ -1,0 +1,26 @@
+{
+  "KB0024649": {
+    "title": "Cyberinfrastructure facilities information and data management plan resources to help you prepare grant proposals",
+    "version": "2.0",
+    "published": "2026-07-06",
+    "updated": "2026-07-06",
+    "sha256": "5aad3867356dbfab612828f8f795e4b4c745dd25b25f3714655ab753983f85f3",
+    "taken": "2026-10-07"
+  },
+  "KB0025830": {
+    "title": "Acceptable uses of generative AI services at IU",
+    "version": "9.0",
+    "published": "2026-07-28",
+    "updated": "2026-07-28",
+    "sha256": "1542dd4ad9bdd333afb34cf52b50c4f4174501e105e54ce758a7ee740538a9b8",
+    "taken": "2026-10-07"
+  },
+  "KB0026817": {
+    "title": "Acceptable use of AI tools with IU research data",
+    "version": "11.0",
+    "published": "2026-09-23",
+    "updated": "2026-09-23",
+    "sha256": "41f2cd5864cc3babfd538ec9a39d35ce5a4a24a4ae49824aabfc2bfbc6fe50f8",
+    "taken": "2026-10-07"
+  }
+}

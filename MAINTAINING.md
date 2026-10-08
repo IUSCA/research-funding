@@ -36,7 +36,7 @@ wrong within a year.
 | The federal F&A cap litigation or policy changes | `budgeting-a-proposal` |
 | Every quarter (January, April, July, October) | The full review below |
 | `tools/check-skills.py` prints a STALE line | That skill's whole Sources list |
-| An open issue labeled `freshness` | The skills, links, and articles it lists |
+| An open issue labeled `freshness` | [Working a freshness issue](#working-a-freshness-issue) |
 
 GitHub Actions runs two checks. On every pull request and push to `main`,
 `check-skills.yml` runs `tools/check-skills.py` and fails on any `ERROR`.
@@ -70,6 +70,47 @@ These claims change most often. Re-check each at every full review.
 | NSF PAPPG version | NSF PAPPG page | every skill with NSF notes |
 | IU internal deadline, routing system, and contacts | IU Research and ORA pages | `routing-and-submitting-at-iu`, `getting-help-with-proposals` |
 | IU limited submissions process | IU Research limited submissions page | `finding-funding-opportunities` |
+
+## Working a freshness issue
+
+A person or their agent works each `freshness` issue by hand. Nothing
+edits a skill on its own, because every fixed claim needs someone to read
+its source. An agent can do all of this; give it this section and the
+issue. A person reviews and merges the pull request.
+
+1. Make a branch from `main`. Run `tools/check-skills.py --freshness`
+   again. The issue may be days old, and some lines may have cleared.
+2. Work each line by kind:
+   - **STALE, KB article changed.** Read the whole article with
+     `iukb.py read KB0123456` (in research-technologies'
+     `searching-the-iu-knowledge-base` skill). Find every claim citing it,
+     in each skill the line names and in that skill's `references/`.
+     Fix what changed. Then record the reading with
+     `tools/check-skills.py --kb-snapshot KB0123456`.
+   - **INFO, text unchanged.** The article was touched but its text was
+     not. Record it with `--kb-snapshot KB0123456`. No skill changes.
+   - **STALE, not found by KB search.** The article was retired or
+     renumbered. Search for its replacement. If there is none, name the
+     article without a link, with the date it went missing.
+   - **STALE, Verified date too old.** Re-read every source the skill
+     cites, then update its Verified line.
+   - **BROKEN.** Run `--links` again; a single failure is often transient.
+     If it still fails, find the page's new address. If the page is gone,
+     find another source or make the claim an open item.
+   - **CHANGED.** Run the snapshot script named in the line. Update the
+     catalog or directory file it compares against, and every skill that
+     names what changed.
+3. A claim the new source no longer supports is fixed, cut, or turned into
+   an open item in `docs/open-items.md`. A question the source now settles
+   leaves the open items.
+4. Update the Verified line of each skill you edited. For an article with
+   a snapshot entry, `--kb-snapshot` is the record, so the Verified line
+   does not need to list it as a partial re-read.
+5. Run `tools/check-skills.py --freshness` until no STALE, BROKEN, or
+   CHANGED line remains. Commit one skill per commit, with the snapshot
+   change in the same commit as the skill it supports.
+6. Open a pull request that says `Closes #<issue>`. List each line and
+   what you did with it: fixed, unchanged, or opened as an item.
 
 ## Full review
 
