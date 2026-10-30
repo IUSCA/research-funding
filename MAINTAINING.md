@@ -40,7 +40,7 @@ wrong within a year.
 
 GitHub Actions runs two checks. On every pull request and push to `main`,
 `check-skills.yml` runs `tools/check-skills.py` and fails on any `ERROR`.
-Every Monday, `freshness.yml` runs `tools/check-skills.py --freshness`, which
+On the 1st of each month, `freshness.yml` runs `tools/check-skills.py --freshness`, which
 here means the age, KB, and link checks. When it finds `STALE`, `BROKEN`, or
 `ERROR` lines, it opens an issue labeled `freshness`, or comments on the one
 already open.

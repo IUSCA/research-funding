@@ -38,6 +38,6 @@ skip_403_hosts = ["www.nsf.gov", "new.nsf.gov", "www.grants.gov", "grants.gov", 
 skip_urls = ["https://grants.nih.gov/node/1192"]
 
 [freshness]
-# Run each Monday by .github/workflows/freshness.yml.
+# Run on the 1st of each month by .github/workflows/freshness.yml.
 checks = ["kb", "links"]
 commands = []
