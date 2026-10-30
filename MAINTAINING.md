@@ -40,7 +40,7 @@ wrong within a year.
 
 GitHub Actions runs two checks. On every pull request and push to `main`,
 `check-skills.yml` runs `tools/check-skills.py` and fails on any `ERROR`.
-Every Monday, `freshness.yml` runs `tools/check-skills.py --freshness`, which
+On the 1st of each month, `freshness.yml` runs `tools/check-skills.py --freshness`, which
 here means the age, KB, and link checks. When it finds `STALE`, `BROKEN`, or
 `ERROR` lines, it opens an issue labeled `freshness`, or comments on the one
 already open.
@@ -89,9 +89,11 @@ issue. A person reviews and merges the pull request.
      `tools/check-skills.py --kb-snapshot KB0123456`.
    - **INFO, text unchanged.** The article was touched but its text was
      not. Record it with `--kb-snapshot KB0123456`. No skill changes.
-   - **STALE, not found by KB search.** The article was retired or
-     renumbered. Search for its replacement. If there is none, name the
-     article without a link, with the date it went missing.
+   - **STALE, not found by KB search.** The search runs without logging
+     in, so the article was retired, renumbered, or made login-only.
+     Search for its replacement. If there is none, name the article
+     without a link, with the date it went missing. Never quote or
+     summarize a login-only article, even if you can read it.
    - **STALE, Verified date too old.** Re-read every source the skill
      cites, then update its Verified line.
    - **BROKEN.** Run `--links` again; a single failure is often transient.
