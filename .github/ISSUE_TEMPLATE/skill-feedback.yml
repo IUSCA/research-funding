@@ -1,0 +1,53 @@
+name: Skill feedback
+description: A skill was wrong, out of date, or missing something you needed.
+title: "<skill-name>: <what was wrong or missing>"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. This issue is public. Leave out data values, file contents, participant or patient identifiers, keys and other secrets, usernames, and project or study names that are not public. Use placeholders such as `<sponsor>` and `<project>`.
+
+        This form is for the skills themselves. For a question about a proposal, ask the office named in `getting-help-with-proposals`. Leave out proposal text, budgets, fund numbers, and reviewer comments.
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options:
+        - planning-a-proposal
+        - finding-funding-opportunities
+        - writing-specific-aims
+        - writing-the-research-strategy
+        - using-preliminary-data-and-feasibility
+        - budgeting-a-proposal
+        - assembling-required-documents
+        - routing-and-submitting-at-iu
+        - responding-to-reviews-and-resubmitting
+        - getting-help-with-proposals
+        - More than one, or not sure
+        - A skill that does not exist yet
+    validations:
+      required: true
+  - type: textarea
+    id: said
+    attributes:
+      label: What the skill said or left out
+      description: Quote the claim, and name its file if you know it.
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: What you or your agent did with it, and what went wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: What the source says, and how you checked
+      description: The sponsor notice, IU policy, or office page with the right answer, its URL, and the date you read it, such as "Observed 2026-11-03 on the NIH notice".
+  - type: input
+    id: pr
+    attributes:
+      label: Pull request
+      description: Optional. Link a pull request with the fix.
