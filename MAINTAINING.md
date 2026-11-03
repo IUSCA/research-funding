@@ -18,7 +18,7 @@ wrong within a year.
   notice beats an older guide.
 - **IU policy and IU Research pages** win for how IU routes, approves, and
   submits a proposal.
-- **The owning office** settles what none of these answers: the Office of
+- **The owning office** settles what none of these answers: the Office for
   Research Administration (ORA) for routing and budgets, the Human Research
   Protection Program (HRPP) for human subjects, and the sponsor's program
   officer for fit. Record its answer with the date and the email or ticket
@@ -26,17 +26,16 @@ wrong within a year.
 
 ## When to review
 
-| Trigger | Scope |
-| --- | --- |
-| Any agent finds a wrong claim during real work | That claim, right away, in its own commit |
-| NIH publishes a notice that changes forms, page limits, review criteria, biosketch, Other Support, or budget rules | Every skill that cites the changed rule |
-| NIH announces a new forms version (FORMS-I is current; watch for FORMS-J), usually months before the change | `assembling-required-documents`, `planning-a-proposal`, and the page-limit claims |
-| NSF issues a new PAPPG or a supplement, usually effective in January or May | Every NSF claim |
-| IU changes its routing system, internal deadline, or F&A rate agreement | `routing-and-submitting-at-iu`, `budgeting-a-proposal` |
-| The federal F&A cap litigation or policy changes | `budgeting-a-proposal` |
-| Every quarter (January, April, July, October) | The full review below |
-| `tools/check-skills.py` prints a STALE line | That skill's whole Sources list |
-| An open issue labeled `freshness` | [Working a freshness issue](#working-a-freshness-issue) |
+| Trigger | Scope | How you notice |
+| --- | --- | --- |
+| Monthly | The `freshness` issue, and any notice the weekly reading below found | The `freshness` issue opened on the 1st, and the month's tracking issue on iu-research |
+| Any agent finds a wrong claim during real work | That claim, right away, in its own commit | An issue on this repository |
+| NIH publishes a notice that changes forms, page limits, review criteria, biosketch, Other Support, or budget rules | Every skill that cites the changed rule | The NIH Guide table of contents; read notices with "OD" in the number |
+| NIH announces a new forms version (FORMS-I is current; watch for FORMS-J), usually months before the change | `assembling-required-documents`, `planning-a-proposal`, and the page-limit claims | The NIH Guide table of contents |
+| NSF issues a new PAPPG or a supplement, usually effective in January or May | Every NSF claim | NSF news |
+| IU changes its routing system, internal deadline, or F&A rate agreement | `routing-and-submitting-at-iu`, `budgeting-a-proposal` | No feed. Re-read the IU Research, ORA, and rate agreement pages at each full review. |
+| The federal F&A cap litigation or policy changes | `budgeting-a-proposal` | The NIH Guide table of contents, and NSF news |
+| Every quarter (January, April, July, October) | The full review below, after the monthly one | The calendar, and the month's tracking issue |
 
 GitHub Actions runs two checks. On every pull request and push to `main`,
 `check-skills.yml` runs `tools/check-skills.py` and fails on any `ERROR`.
@@ -45,10 +44,13 @@ here means the age, KB, and link checks. When it finds `STALE`, `BROKEN`, or
 `ERROR` lines, it opens an issue labeled `freshness`, or comments on the one
 already open.
 
-**Recommended.** Subscribe to the NIH Guide weekly table of contents and the
-NSF news feed. Read each week's NIH notices with "OD" in the number. Those
-are the policy notices. Also check NIH's grants and funding information
-status page, which lists burden-reduction changes in one place.
+**Recommended.** Read the NIH Guide weekly table of contents and NSF news
+each week. Read each week's NIH notices with "OD" in the number. Those are
+the policy notices. Also check NIH's grants and funding information status
+page, which lists burden-reduction changes in one place. No script does
+this. The family maintainer assigns someone to each feed, and records who on
+the tracking issue each quarter. See the family runbook's "Watching for
+events".
 
 ## What to re-check, and where
 
@@ -73,50 +75,28 @@ These claims change most often. Re-check each at every full review.
 
 ## Working a freshness issue
 
-A person or their agent works each `freshness` issue by hand. Nothing
-edits a skill on its own, because every fixed claim needs someone to read
-its source. An agent can do all of this; give it this section and the
-issue. A person reviews and merges the pull request.
+Follow the family runbook,
+[monthly-review.md](https://github.com/IUSCA/iu-research/blob/main/docs/monthly-review.md).
+It has the general steps: how to work each kind of line, the KB snapshot
+and Verified-line rules, commits, and the pull request. This section adds
+only what is specific to this repository.
 
-1. Make a branch from `main`. Run `tools/check-skills.py --freshness`
-   again. The issue may be days old, and some lines may have cleared.
-2. Work each line by kind:
-   - **STALE, KB article changed.** Read the whole article with
-     `iukb.py read KB0123456` (in research-technologies'
-     `searching-the-iu-knowledge-base` skill). Find every claim citing it,
-     in each skill the line names and in that skill's `references/`.
-     Fix what changed. Then record the reading with
-     `tools/check-skills.py --kb-snapshot KB0123456`.
-   - **INFO, text unchanged.** The article was touched but its text was
-     not. Record it with `--kb-snapshot KB0123456`. No skill changes.
-   - **STALE, not found by KB search.** The search runs without logging
-     in, so the article was retired, renumbered, or made login-only.
-     Search for its replacement. If there is none, name the article
-     without a link, with the date it went missing. Never quote or
-     summarize a login-only article, even if you can read it.
-   - **STALE, Verified date too old.** Re-read every source the skill
-     cites, then update its Verified line.
-   - **BROKEN.** Run `--links` again; a single failure is often transient.
-     If it still fails, find the page's new address. If the page is gone,
-     find another source or make the claim an open item.
-   - **CHANGED.** Run the snapshot script named in the line. Update the
-     catalog or directory file it compares against, and every skill that
-     names what changed.
-3. A claim the new source no longer supports is fixed, cut, or turned into
-   an open item in `docs/open-items.md`. A question the source now settles
-   leaves the open items.
-4. Update the Verified line of each skill you edited. For an article with
-   a snapshot entry, `--kb-snapshot` is the record, so the Verified line
-   does not need to list it as a partial re-read.
-5. Run `tools/check-skills.py --freshness` until no STALE, BROKEN, or
-   CHANGED line remains. Commit one skill per commit, with the snapshot
-   change in the same commit as the skill it supports.
-6. Open a pull request that says `Closes #<issue>`. List each line and
-   what you did with it: fixed, unchanged, or opened as an item.
+- `--freshness` runs the age, KB, and link checks. There is no snapshot
+  script, so a run here never prints `CHANGED`.
+- Some federal sites refuse scripts. A `BROKEN` line for one of them often
+  means the host needs `skip_403_hosts`, not a new address. Test it as the
+  runbook's "BROKEN twice" says.
+- For a `STALE` line on a notice-based claim, also look for a newer notice
+  that supersedes the cited one, as in
+  [step 2 of the full review](#2-re-read-the-sources-and-fix-the-claims).
+- The monthly item here is what the weekly NIH Guide and NSF news reading
+  found. Fix it in the month's review branch, one skill per commit. If no
+  one read the feeds this month, say so on the tracking issue.
 
 ## Full review
 
-Work on a branch. Make one commit per skill, as `CONTRIBUTING.md` asks.
+Work on a branch. Commit as the family runbook's "Commits" section says:
+one skill per commit, with each KB snapshot in the commit it supports.
 
 ### 1. Lint and find stale skills
 
@@ -132,7 +112,7 @@ in `tools/check-skills.toml`.
 
 - `ERROR` lines must be fixed before merging.
 - `STALE` lines are the reading list for step 2.
-- `BROKEN` lines usually mean a sponsor moved a page. Find the new page.
+- Work `INFO` and `BROKEN` lines as the family runbook's step 3 says.
 - `WARN` lines usually mean a notice appears in the text but not in
   Sources. A skill without a README row or trigger prompt is an `ERROR`.
 
@@ -146,9 +126,9 @@ notices that supersede the cited ones:
 grep -rhoE "NOT-[A-Z]{2}-[0-9]{2}-[0-9]{3}" .agents/skills | sort -u
 ```
 
-Open each notice. NIH marks a superseded notice at its top. Update the
-Verified line only after every source is re-read. Otherwise use the partial
-form in `CONTRIBUTING.md`.
+Open each notice. NIH marks a superseded notice at its top. Update Verified
+lines, and record KB articles with `--kb-snapshot`, by the family runbook's
+"Rules that trip people up".
 
 ### 3. Re-check the scripts
 
