@@ -5,8 +5,8 @@ description: Route and submit a sponsored research proposal at Indiana Universit
 
 # Routing and submitting a proposal at IU
 
-Verified 2026-10-04 against IU Research pages, IU policies, and the Research
-Administration Standards. Sources are listed at the end.
+Verified 2026-11-10 (each contact against the page cited with it only).
+Other sources were verified 2026-10-04. Sources are listed at the end.
 
 IU submits proposals, not individual researchers. Every proposal goes
 through the Office for Research Administration (ORA). Start routing early,
@@ -54,7 +54,7 @@ holidays and closures to it.
    [ORA], a Grants Services Administrator will be assigned as your point of
    contact for submission," per the routing page.
 
-If you do not know your contact, email ora@iu.edu. See
+If you do not know your contact, email ora@iu.edu ([IU Research, Routing and Submission](https://research.iu.edu/funding-proposals/routing-submission/index.html)). See
 `getting-help-with-proposals` for the rest of IU's proposal support.
 
 ## The routing system
@@ -99,8 +99,9 @@ last column.
 **Open item.** The COI page states no proposal-time trigger. NIH's financial
 conflict of interest rule, 42 CFR 50 Subpart F, requires disclosure of
 significant financial interests "no later than the time of application" for
-investigators planning to take part in PHS-funded research. Ask coi@iu.edu
-how IU applies that at routing.
+investigators planning to take part in PHS-funded research. Ask
+coi@iu.edu ([IU Research, Complete a Disclosure](https://research.iu.edu/compliance/conflict-interest/disclosure.html))
+about how IU applies that at routing.
 
 ## Institutional facts the forms need
 
@@ -118,7 +119,8 @@ not guess them.
 **Required.** When a sponsor limits how many proposals an institution may
 send, IU picks them through an internal competition. "InfoReady lists IU's
 current limited submission opportunities," per the IU Research limited
-submissions page. Contact limsub@iu.edu. See `finding-funding-opportunities`.
+submissions page. Contact limsub@iu.edu ([IU Research, Limited Submissions](https://research.iu.edu/funding-proposals/funding/limited-submissions/index.html)).
+See `finding-funding-opportunities`.
 
 ## Foundations and corporations
 

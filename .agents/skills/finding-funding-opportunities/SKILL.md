@@ -5,8 +5,8 @@ description: Find and choose a funding opportunity for a research idea at Indian
 
 # Finding funding opportunities
 
-Verified 2026-10-04 against NIH, NSF, Grants.gov, and IU Research pages.
-Sources are listed at the end.
+Verified 2026-11-10 (limsub@iu.edu against the Limited Submissions page
+only). Other sources were verified 2026-10-04. Sources are listed at the end.
 
 The funding opportunity is the contract for one application. Find the right
 one, then read every word of it. It overrides every general rule in these
@@ -25,7 +25,7 @@ skills.
 | NIH RePORTER Matchmaker | Similar projects for pasted text | Suggests institutes, program officers, and study sections |
 | NSF funding search | NSF programs and solicitations | Most NSF programs have a standing solicitation |
 | NSF award search | Funded NSF awards | Which program funds similar work |
-| Pivot (Pivot-RP) | Federal, foundation, and other funders | IU-licensed; "All IU faculty, staff and students can access Pivot" |
+| Pivot (Pivot-RP) | Federal, foundation, and other funders | IU-licensed; "All IU faculty, staff and students can access Pivot," per the archived IU Research Pivot page; see the open item below |
 | IU curated funding opportunities | Opportunities IU Research has screened | IU Research page |
 | Foundation Directory Online | Foundations | Through IU Libraries |
 | InfoReady | IU limited submissions and internal funds | See below |
@@ -95,7 +95,7 @@ institution, IU selects them internally. "InfoReady lists IU's current
 limited submission opportunities as well as instructions for submitting
 internal applications," per the IU Research limited submissions page.
 
-- Subscribe to the weekly listserv by emailing limsub@iu.edu.
+- Subscribe to the weekly listserv by emailing limsub@iu.edu ([IU Research, Limited Submissions](https://research.iu.edu/funding-proposals/funding/limited-submissions/index.html)).
 - Internal deadlines are set per opportunity in InfoReady, often months
   before the sponsor's.
 - **Recommended.** Check InfoReady as soon as a NOFO names an institutional
@@ -143,6 +143,10 @@ the IU Research opportunities page and the CTSI funding page.
 - Before October 2027, rewrite the K row for the consolidated K awards.
 - Re-check the parent R21 limits when NIH reissues the parent NOFOs.
 - Re-check the IU internal fund list each semester.
+- **Open item.** The IU Research Pivot page returned 404 on 2026-11-10,
+  though IU Research menus still link it. Its last archived copy, of
+  2026-08-08, is the source for who can access Pivot. Find IU's current
+  Pivot page and cite it instead.
 
 ## Sources
 
@@ -183,7 +187,8 @@ Checked 2026-10-04.
   Simpler Grants.gov, https://simpler.grants.gov/search
 - External: Alzheimer's Association, AARGA program,
   https://www.alz.org/research/for_researchers/grants/types-of-grants/aarga
-- IU Research, Pivot: https://research.iu.edu/funding-proposals/funding/pivot.html
+- IU Research, Pivot, removed by 2026-11-10; archived copy of 2026-08-08:
+  https://web.archive.org/web/20260808072958/https://research.iu.edu/funding-proposals/funding/pivot.html
 - IU Research, Curated Funding Opportunities:
   https://research.iu.edu/funding-proposals/funding/curated-opportunities/index.html
 - IU Research, Limited Submissions:

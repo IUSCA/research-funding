@@ -21,7 +21,7 @@ Entries name skill sections rather than line numbers, which drift.
 
 | Category | Questions |
 | --- | --- |
-| Answerable from a published source | 5 |
+| Answerable from a published source | 6 |
 | Office for Research Administration (ORA) | 5 |
 | IU Research Conflict of Interest | 1 |
 | Human Research Protection Program (HRPP) | 1 |
@@ -52,6 +52,11 @@ Check each again at the next review.
 5. **IU guidance on the Common Forms and SciENcv.** No IU Research page
    found. IU Libraries keeps a SciENcv guide. `assembling-required-documents`,
    "Keep this file current."
+6. **IU's Pivot page.** The IU Research Pivot page,
+   `research.iu.edu/funding-proposals/funding/pivot.html`, returned 404 on
+   2026-11-10, though IU Research menus still link it.
+   `finding-funding-opportunities` cites an archived copy of 2026-08-08 for
+   who can access Pivot. Find the current page.
 
 ## Questions for the owning offices
 
