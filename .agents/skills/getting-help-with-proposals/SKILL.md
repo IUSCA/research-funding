@@ -5,8 +5,8 @@ description: Find the right Indiana University office or service for help with a
 
 # Getting help with proposals
 
-Verified 2026-10-04 against the IU Research, Indiana CTSI, and IU School of
-Medicine pages named in Sources.
+Verified 2026-11-10 (each contact against the page cited with it only).
+Other sources were verified 2026-10-04.
 
 Ask early. Most IU proposal services ask for weeks of lead time, and none can
 help in the last four business days. Send each question to the office that
@@ -14,27 +14,30 @@ decides it.
 
 ## Who does what
 
-| Need | Ask | Contact | Lead time |
-| --- | --- | --- | --- |
-| Budget, KC routing, sponsor forms | Your unit's grant administrator | Your department or school research office; ora@iu.edu if unsure | Weeks; see `planning-a-proposal` |
-| Pre-award help when your unit has no grant administrator | Research Development Services (RDS), Pre-Award Services | RDS request form on the RDS page | "At least 4 weeks before the due date" |
-| Planning, strategy, and editing for a proposal | RDS, Proposal Development Services | RDS request form | "As early as possible"; replies "within 3 business days" |
-| Large or multi-team proposals, funding searches | RDS | RDS request form | Months for center grants (**Practice**) |
-| Final review and submission | Office for Research Administration (ORA) | ora@iu.edu | 9 a.m., four business days before the deadline |
-| Limited submission competitions | IU Research limited submissions | limsub@iu.edu; InfoReady | Per opportunity |
-| Approaching a foundation or corporation | Corporate and Foundation Relations (CFR) | CFR contact page | Before first contact |
-| Grant-writing advice for clinical and translational work | Indiana CTSI grant-writing office hours | CTSI "build skills" page | First and third Wednesday each month |
-| Mock study section | Indiana CTSI | CTSI "build skills" page | **Practice:** two months before the deadline |
-| Study design, pilot funding, and biostatistics for translational work | Indiana CTSI Project Development Teams | CTSI PDT page | Not stated |
-| A CTSI letter of support or facilities text | Indiana CTSI | CTSI letter-of-support page | Not stated; ask early |
-| IU School of Medicine research support and mentoring | IUSM Office of Research Affairs | IUSM research support page | Not stated |
-| Human subjects, IRB, single IRB reliance | Human Research Protection Program (HRPP) | irb@iu.edu | Single IRB: "as soon as possible prior to submitting" |
-| Conflict of interest | IU Research COI | coi@iu.edu | Before routing |
-| Research security, foreign engagements, export control | Research Security Office | rsohelp@iu.edu | Before routing |
-| NIH or NSF data management and sharing plan | Research Data Commons consultation | research-data [`getting-help-with-research-data`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/getting-help-with-research-data) | Three weeks before the routing deadline |
-| Computing and storage facilities text | UITS Research Technologies | research-technologies [`getting-help-from-research-technologies`](https://github.com/IUSCA/research-technologies/tree/main/.agents/skills/getting-help-from-research-technologies) | Not stated |
-| Core facility quotes and letters | The core's director | research-cores repository | **Practice:** a month before |
-| Whether a project fits a program | The sponsor's program officer | Named in the funding opportunity | Before writing |
+Each row names the page that lists its contact. Give a contact with that
+page, and read the page again if the contact may have changed.
+
+| Need | Ask | Contact | Source | Lead time |
+| --- | --- | --- | --- | --- |
+| Budget, KC routing, sponsor forms | Your unit's grant administrator | Your department or school research office; ora@iu.edu if unsure | [IU Research, Routing and Submission](https://research.iu.edu/funding-proposals/routing-submission/index.html) | Weeks; see `planning-a-proposal` |
+| Pre-award help when your unit has no grant administrator | Research Development Services (RDS), Pre-Award Services | RDS request form on the RDS page | [IU Research, Research Development Services](https://research.iu.edu/funding-proposals/about/index.html) | "At least 4 weeks before the due date" |
+| Planning, strategy, and editing for a proposal | RDS, Proposal Development Services | RDS request form | [IU Research, Research Development Services](https://research.iu.edu/funding-proposals/about/index.html) | "As early as possible"; replies "within 3 business days" |
+| Large or multi-team proposals, funding searches | RDS | RDS request form | [IU Research, Research Development Services](https://research.iu.edu/funding-proposals/about/index.html) | Months for center grants (**Practice**) |
+| Final review and submission | Office for Research Administration (ORA) | ora@iu.edu | [IU Research, Routing and Submission](https://research.iu.edu/funding-proposals/routing-submission/index.html) | 9 a.m., four business days before the deadline |
+| Limited submission competitions | IU Research limited submissions | limsub@iu.edu; InfoReady | [IU Research, Limited Submissions](https://research.iu.edu/funding-proposals/funding/limited-submissions/index.html) | Per opportunity |
+| Approaching a foundation or corporation | Corporate and Foundation Relations (CFR) | CFR contact page | [CFR, Contact Us](https://cfr.iu.edu/contact-us/index.html) | Before first contact |
+| Grant-writing advice for clinical and translational work | Indiana CTSI grant-writing office hours | CTSI "build skills" page | [Indiana CTSI, build grant-writing skills](https://indianactsi.org/funding/grants/build-skills/) | First and third Wednesday each month |
+| Mock study section | Indiana CTSI | CTSI "build skills" page | [Indiana CTSI, build grant-writing skills](https://indianactsi.org/funding/grants/build-skills/) | **Practice:** two months before the deadline |
+| Study design, pilot funding, and biostatistics for translational work | Indiana CTSI Project Development Teams | CTSI PDT page | [Indiana CTSI, Project Development Teams](https://indianactsi.org/funding/grants/pdt/) | Not stated |
+| A CTSI letter of support or facilities text | Indiana CTSI | CTSI letter-of-support page | [Indiana CTSI, letters of support](https://indianactsi.org/funding/grants/letter-of-support/) | Not stated; ask early |
+| IU School of Medicine research support and mentoring | IUSM Office of Research Affairs | IUSM research support page | [IUSM, research support](https://medicine.iu.edu/research/support) | Not stated |
+| Human subjects, IRB, single IRB reliance | Human Research Protection Program (HRPP) | irb@iu.edu | [IU Research, Human Subjects and Institutional Review Boards](https://research.iu.edu/compliance/human-subjects/index.html) | Single IRB: "as soon as possible prior to submitting" |
+| Conflict of interest | IU Research COI Office | coi@iu.edu | [IU Research, Complete a Disclosure](https://research.iu.edu/compliance/conflict-interest/disclosure.html) | Before routing |
+| Research security, foreign engagements, export control | Research Security Office | rsohelp@iu.edu | [RSO, Contact RSO](https://rso.iu.edu/contact/contact-rso/index.html) | Before routing |
+| NIH or NSF data management and sharing plan | Research Data Commons consultation | research-data [`getting-help-with-research-data`](https://github.com/IUSCA/research-data/tree/main/.agents/skills/getting-help-with-research-data) | That skill | Three weeks before the routing deadline |
+| Computing and storage facilities text | UITS Research Technologies | research-technologies [`getting-help-from-research-technologies`](https://github.com/IUSCA/research-technologies/tree/main/.agents/skills/getting-help-from-research-technologies) | That skill | Not stated |
+| Core facility quotes and letters | The core's director | research-cores repository | The core's own page | **Practice:** a month before |
+| Whether a project fits a program | The sponsor's program officer | Named in the funding opportunity | The funding opportunity | Before writing |
 
 ## Writing guides and templates
 
@@ -83,7 +86,7 @@ need. Describe them by type and size.
 
 ## Sources
 
-Checked 2026-10-04.
+Checked 2026-10-04, except as noted.
 
 - IU Research, Routing and Submission:
   https://research.iu.edu/funding-proposals/routing-submission/index.html
@@ -96,8 +99,14 @@ Checked 2026-10-04.
 - IU Research, Corporate and Foundation Relations:
   https://research.iu.edu/funding-proposals/funding/corporate-foundation/index.html
 - IU Corporate and Foundation Relations, contact: https://cfr.iu.edu/contact-us/index.html
-- IU Research, Conflict of Interest disclosure:
+- IU Research, Conflict of Interest disclosure (coi@iu.edu, read
+  2026-11-10):
   https://research.iu.edu/compliance/conflict-interest/disclosure.html
+- IU Research, Human Subjects and Institutional Review Boards (irb@iu.edu,
+  read 2026-11-10):
+  https://research.iu.edu/compliance/human-subjects/index.html
+- Research Security Office, Contact RSO (rsohelp@iu.edu, read 2026-11-10):
+  https://rso.iu.edu/contact/contact-rso/index.html
 - IU Research, Single IRB quick guide:
   https://research.iu.edu/training/guides/human-subjects/single-irb.html
 - IU Research Security Office: https://rso.iu.edu/
