@@ -5,8 +5,10 @@ description: Start and plan a grant proposal at Indiana University, from idea to
 
 # Planning a proposal
 
-Verified 2026-10-04 against NIH Grants and Funding pages, the NSF PAPPG, and
-IU Research pages. Sources are listed at the end.
+Verified 2026-11-14 (the generative AI paragraph against KB0026507,
+KB0027272, KB0025830, and KB0026817 only). Other sources were verified
+2026-10-04 against NIH Grants and Funding pages, the NSF PAPPG, and IU
+Research pages. Sources are listed at the end.
 
 This skill ties the other proposal skills together. It decides what has to
 happen, in what order, and by when. The other skills say how to do each
@@ -32,11 +34,18 @@ Integrity.
 description the extent to which, if any, generative AI technology was used,"
 per its December 2023 notice.
 
-**Required.** Do not paste proposal text into a generative AI service that
-IU has not approved for that data. Per KB0025830, providing "grant
-proposals" to such services "is the same as posting the information on a
-public website." It lists "sharing grant proposals still under review" as an
-unacceptable use. KB0026817 covers AI tools with research data.
+**Required.** Put proposal text only into a generative AI service IU has
+approved for that data. REALLMS, IU's on-premises LLM service, is approved
+for Public, University-internal, Restricted, and Critical data, including
+PHI, except research data with contractual, regulatory, or legal constraints
+(KB0026507, KB0027272). IU-licensed tools such as ChatGPT Edu and Google
+Gemini, used with an IU account, are approved through Restricted (KB0026507).
+Other services, and personal accounts, are not: per KB0025830, providing
+"grant proposals" to them "is the same as posting the information on a
+public website," and it lists "sharing grant proposals still under review" as
+an unacceptable use. IU policy UA-23 does not count "drafts of scholarly
+manuscripts" or "plans for future research" as research data, so a draft's
+classification follows the Data Classification Matrix (KB0026817).
 
 ## Collect the facts
 
@@ -205,6 +214,10 @@ Checked 2026-10-04.
   https://research.iu.edu/funding-proposals/about/index.html
 - Research Data Commons, DMP consultation:
   https://researchdata.iu.edu/resources/dmp-consultation/
+- [KB0026507](https://servicenow.iu.edu/kb?id=kb_article_view&sysparm_article=KB0026507)
+  Generative AI tools at IU
+- [KB0027272](https://servicenow.iu.edu/kb?id=kb_article_view&sysparm_article=KB0027272)
+  About the Research and Academic LLM Services (REALLMS) API at IU
 - [KB0025830](https://servicenow.iu.edu/kb?id=kb_article_view&sysparm_article=KB0025830)
   Acceptable uses of generative AI services at IU
 - [KB0026817](https://servicenow.iu.edu/kb?id=kb_article_view&sysparm_article=KB0026817)
